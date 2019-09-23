@@ -1,0 +1,21 @@
+Python		JSON
+dict		object
+list		array
+str		string
+int, float	number
+True		true
+False		false
+None		null
+
+
+## LOAD json file into Python program
+y = json.load(x) # where x is the open file you want to load
+
+## LOAD json string into Python program
+y = json.loads(x) # where x is the json STRING you want to load
+
+## DUMP python x out to JSON y
+y = json.dumps(x) # where x is the python data to dump out to the Y file
+
+## DUMP python 
+json.dump(x, y) # where x is the python data and y is the file to dump to
