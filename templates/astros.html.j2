@@ -1,0 +1,10 @@
+<!doctype html>
+
+<html>
+    <body>
+        {% for person in astros %}
+	<li>{{ person.name }} is riding<br>
+		on the {{ person.craft }}</li>
+        {% endfor %}
+    </body>
+</html>
