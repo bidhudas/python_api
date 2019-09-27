@@ -1,0 +1,739 @@
+    1  ls
+    2  clear
+    3  python --version
+    4  python3 --version
+    5  clear
+    6  mkdir pyapi
+    7  cd pyapi/
+    8  is
+    9  ls
+   10  clear
+   11  vim 
+   12  vim py01.py
+   13  ./py01.py
+   14  ls -ll
+   15  chmod u+x py01.py
+   16  ls -ll
+   17  ./py01.py
+   18  vim py01.py 
+   19  ./py01.py
+   20  print("hola mundo")
+   21  vim py01.py 
+   22  ./py01.py
+   23  ls
+   24  ls -ll
+   25  ./py01.py
+   26  exit
+   27  exit
+   28  pwd
+   29  ls
+   30  cd pyapi/
+   31  ls
+   32  pwd
+   33  exit
+   34  curl
+   35  clear
+   36  curl http://127.0.0.1:5006/
+   37  exit
+   38  curl http://127.0.0.1:5006/
+   39  exit
+   40  curl http://127.0.0.1:5006/
+   41  curl http://127.0.0.1:5006/index
+   42  curl http://127.0.0.1:5006/index -L
+   43  clear
+   44  curl http://127.0.0.1:5006/index -L
+   45  curl http://127.0.0.1:5006/index/ -L
+   46  exit
+   47  curl http://127.0.0.1:5006/hello/Zach
+   48  curl http://127.0.0.1:5006/hello/Jerry
+   49  curl http://127.0.0.1:5006/hello/
+   50  curl http://127.0.0.1:5006/hello
+   51  clear
+   52  curl http://127.0.0.1:5006/hello/Zach Feeser
+   53  curl http://127.0.0.1:5006/hello/"Zach Feeser"
+   54  clear
+   55  curl http://127.0.0.1:5006/hello/Zach" "Feeser
+   56  curl "http://127.0.0.1:5006/hello/Zach Feeser"
+   57  clear
+   58  curl "http://127.0.0.1:5006/hello/Zach%20Feeser"
+   59  exit
+   60  curl htpp://127.0.0.1/signin/larry
+   61  curl http://127.0.0.1/signin/larry -L
+   62  curl http://127.0.0.1:5006/signin/larry -L
+   63  curl http://127.0.0.1:5006/signin/admin -L
+   64  exit
+   65  curl htpp://127.0.0.1/login?nm=ZachFeeser -L
+   66  curl http://127.0.0.1/login?nm=ZachFeeser -L
+   67  curl http://127.0.0.1:5006/login?nm=ZachFeeser -L
+   68  curl http://127.0.0.1:5006/login?nm=Zach%20Feeser -L
+   69  exit
+   70  curl http://localhost:8000/polls/
+   71  curl http://localhost:8000/polls
+   72  exit
+   73  curl http://localhost:8000/polls/
+   74  exit
+   75  curl http://localhost:8000/polls/
+   76  exit
+   77  ls
+   78  cd pyapi/
+   79  ls -al
+   80  pwd
+   81  exit
+   82  cd pyapi/
+   83  cd templates/
+   84  pwd
+   85  exit
+   86  cat pyapi/flask07.py 
+   87  exit
+   88  vim pyapi/flask07.py 
+   89  exit
+   90  cd pyapi/
+   91  python3 flask07.py 
+   92  clear
+   93  exit
+   94  cd pyapi/
+   95  ll
+   96  cat templates/upload.html 
+   97  exit
+   98  history
+   99  cat .bash_history 
+  100  exit
+  101  cd pyapi/
+  102  firefox serveruptimes.png
+  103  ls
+  104  cd pyapi/
+  105  ls
+  106  sudo apt install tree
+  107  tree feeserdjango/
+  108  ls
+  109  rm -rf feeserdjango/
+  110  ls
+  111  django-admin startproject fifthelement
+  112  cd fifthelement/
+  113  ls
+  114  cd ..
+  115  tree fifthelement/
+  116  cd fifthelement/
+  117  ls
+  118  python3 manage.py runserver
+  119  python3 manage.py startapp poll
+  120  ls
+  121  rm -rf poll/
+  122  python3 manage.py startapp polls
+  123  ls
+  124  tree polls
+  125  tree polls/
+  126  vim polls/views.py
+  127  vim polls/urls.py
+  128  cd ..
+  129  cd fifthelement/
+  130  vim urls.py
+  131  python3 manage.py runserver
+  132  clear
+  133  vim polls/views.py
+  134  vim polls/urls.py
+  135  vim urls.py
+  136  python3 manage.py runserver
+  137  python manage.py migrate
+  138  python3 manage.py migrate
+  139  python3 manage.py runserver
+  140  vim polls/views.py
+  141  vim polls/urls.py
+  142  vim fifthelement/urls.py 
+  143  ls
+  144  cat urls.py 
+  145  rm urls.py 
+  146  python3 manage.py runserver
+  147  clear
+  148  cd ..
+  149  clear
+  150  ls
+  151  vim flask05.py
+  152  python3 flask05.py 
+  153  vim flask05.py
+  154  python3 flask05.py 
+  155  vim flask05.py
+  156  mkdir templates
+  157  cd templates/
+  158  ls
+  159  vim index.html
+  160  cd ..
+  161  vim flask05.py 
+  162  python3 flask05.py 
+  163  vim flask05.py 
+  164  cd te
+  165  cd templates/
+  166  ls
+  167  cp index.html username.html.j2
+  168  vim username.html.j2 
+  169  cat username.html.j2 
+  170  d ..
+  171  cd ..
+  172  ls
+  173  vim flask05.py
+  174  python3 flask05.py 
+  175  ls
+  176  vim unpacking09.py
+  177  vim jrpg.py
+  178  vim unpacking09.py 
+  179  cat jrpg.py 
+  180  vim unpacking09.py
+  181  python3 unpacking09.py 
+  182  ls
+  183  cat unpacking09.py 
+  184  ls
+  185  vim flask05.PY
+  186  vim flask05.py
+  187  cd templates/
+  188  vim astros.html.j2
+  189  cd ..
+  190  ls
+  191  python3 flask05.py 
+  192  vim flask05.py
+  193  cd templates/
+  194  ls
+  195  vim astros.html.j2 
+  196  cd ..
+  197  vim flask05.py
+  198  python3 flask05.py 
+  199  vim flask05.py
+  200  vim templates/astros.html.j2 
+  201  python3 flask05.py 
+  202  vim templates/astros.html.j2 
+  203  python3 flask05.py 
+  204  vim flask05.py
+  205  ls
+  206  vim requestsvsurllib.py
+  207  python3 requestsvsurllib.py 
+  208  vim requestsvsurllib.py
+  209  python3 requestsvsurllib.py 
+  210  vim requestsvsurllib.py
+  211  python3 requestsvsurllib.py 
+  212  vim requestsvsurllib.py
+  213  python3 requestsvsurllib.py 
+  214  vim requestsvsurllib.py
+  215  python3 requestsvsurllib.py 
+  216  vim requestsvsurllib.py
+  217  ls
+  218  cd flask05.py
+  219  vim flask05.py 
+  220  vim oldpy2.py
+  221  python3 oldpy2.py 
+  222  2to3 oldpy2.py
+  223  sudo apt install 2to3
+  224  2to3 oldpy2.py
+  225  cat oldpy2.py 
+  226  2to3 oldpy2.py -W
+  227  ls
+  228  cat oldpy2.py
+  229  python3 oldpy2.py 
+  230  ls
+  231  cat marvel08.py 
+  232  cat requests07.py 
+  233  ls
+  234  vim flask06.py
+  235  vim templates/signin.html
+  236  less flask06.py 
+  237  vim templates/readcookie.html
+  238  vim flask06.py
+  239  clear
+  240  vim flask06.py
+  241  python3 flask06.py 
+  242  vim flask06.py
+  243  cd templates/
+  244  ls
+  245  vim readcookie.html 
+  246  vim signin.html 
+  247  cd ..
+  248  ls
+  249  vim flask06.py 
+  250  python3 flask06.py 
+  251  vim flask06.py 
+  252  vim flask07.py
+  253  vim fstringsdemo.py
+  254  python3 fstringsdemo.py 
+  255  vim fstringsdemo.py
+  256  python3 fstringsdemo.py 
+  257  vim fstringsdemo.py
+  258  python3 fstringsdemo.py 
+  259  vim flask07.py 
+  260  vim templates/sessionlogin.html
+  261  vim flask07.py 
+  262  vim templates/sessionlogin.html
+  263  python3 flask07.py 
+  264  vim templates/sessionlogin.html
+  265  vim flask07.py 
+  266  python3 flask07.py 
+  267  vim flask07.py 
+  268  python3 flask07.py 
+  269  vim flask07.py 
+  270  ls
+  271  cd templates/
+  272  ls
+  273  vim sessionlogin.html 
+  274  cd ..
+  275  vim flask07.py 
+  276  vim templates/sessionlogin.html 
+  277  python3 flask07.py 
+  278  vim flask07.py 
+  279  python3 flask07.py 
+  280  vim flask07.py 
+  281  python3 flask07.py 
+  282  vim flask07.py 
+  283  vim templates/sessionlogin.html 
+  284  python3 flask07.py 
+  285  vim flask07.py 
+  286  python3 flask07.py 
+  287  vim templates/sessionlogin.html 
+  288  python3 flask07.py 
+  289  vim flask07.py 
+  290  python3 flask07.py 
+  291  vim flask07.py 
+  292  python3 flask07.py 
+  293  vim flask07.py 
+  294  clear
+  295  sudo apt install 2to3
+  296  vim oldpy2.py
+  297  python3 oldpy2.py 
+  298  2to3 oldpy2.py
+  299  cat oldpy2.py
+  300  python3 oldpy2.py 
+  301  2to3 oldpy2.py -W
+  302  cat oldpy2.py
+  303  python3 oldpy2.py 
+  304  clear
+  305  ls
+  306  cat yaml04.py 
+  307  vim yaml04.py 
+  308  pylint yaml04.py 
+  309  python3 -m pip install pylint
+  310  pylint yaml04.py 
+  311  vim yaml04.py 
+  312  pylint yaml04.py 
+  313  vim yaml04.py 
+  314  pylint yaml04.py 
+  315  vim yaml04.py 
+  316  pylint yaml04.py 
+  317  vim yaml04.py 
+  318  pylint yaml04.py 
+  319  vim yaml04.py 
+  320  pylint yaml04.py 
+  321  vim yaml04.py 
+  322  pylint yaml04.py 
+  323  git add *
+  324  git commit -m "end of day 3"
+  325  git log
+  326  git reset --hard HEAD^
+  327  ls
+  328  git log
+  329  cd
+  330  mkdir tmp
+  331  cd tmp
+  332  scp pyapi-253-bchd:/home/student/pyapi/* .
+  333  git reflog
+  334  cd ~/pyapi/
+  335  git reflog
+  336  git reset --hard 2a28c38
+  337  ls
+  338  cd
+  339  rm -rf tmp/
+  340  mkdir django-dev
+  341  cp pyapi/fifthelement/ django-dev/
+  342  cp -r pyapi/fifthelement/ django-dev/
+  343  cd django-dev/
+  344  ls
+  345  cd fifthelement/
+  346  ls
+  347  cd ~/pyapi/
+  348  ls
+  349  git rm -r fifthelement/
+  350  ls
+  351  git commit -m "end of day 3"
+  352  git push https://github.com/rzfeeser/pyapi20190923 master
+  353  cd ~/django-dev/
+  354  ls
+  355  cd fifthelement/
+  356  ls
+  357  cd fifthelement/
+  358  ls
+  359  vim settings.py
+  360  ls
+  361  cd ..
+  362  cd.. 
+  363  ls
+  364  cd ..
+  365  ls
+  366  cd pyapi/
+  367  ls
+  368  git reflog
+  369  ls
+  370  vim flask08.py
+  371  ls
+  372  cd templates/
+  373  ls
+  374  vim upload.html
+  375  cd ..
+  376  ls
+  377  python3 flask08.py 
+  378  vim upload.html
+  379  vim flask08.py 
+  380  python3 flask08.py 
+  381  ls flask08.py 
+  382  cat flask08.py 
+  383  python3 flask08.py 
+  384  ls
+  385  vim graphing10.py
+  386  python3 graphing10.py 
+  387  vim graphing10.py
+  388  python3 graphing10.py 
+  389  python3 -m pip install numpy
+  390  python3 graphing10.py 
+  391  python3 -m pip install matplotlib
+  392  python3 graphing10.py 
+  393  ls
+  394  vim graphing10.py
+  395  python3 graphing10.py 
+  396  vim graphing10.py
+  397  python3 graphing10.py 
+  398  vim graphing10.py
+  399  python3 graphing10.py 
+  400  vim graphing10.py
+  401  python3 graphing10.py 
+  402  vim graphing10.py
+  403  python3 graphing10.py 
+  404  vim graphing10.py
+  405  cd
+  406  vim sshpass.yml
+  407  wget https://alta3.com/static/projects/ansible/modules/setup.sh -O mod-setup.sh
+  408  bash mod-setup.sh 
+  409  ssh fry@10.10.2.3
+  410  ssh fry@10.10.2.4
+  411  ssh farnsworth@10.10.26
+  412  ssh farnsworth@10.10.2.6
+  413  ssh bender@10.10.23
+  414  ssh bender@10.10.2.3
+  415  cd pyapi/
+  416  ls
+  417  vim flask11.py
+  418  cd templates/
+  419  ls
+  420  vim graph.html
+  421  cd ..
+  422  python3 flask11.py 
+  423  cat flask11.py
+  424  python3 flask11.py 
+  425  mkdir static
+  426  python3 flask11.py 
+  427  ls
+  428  cat /proc/uptime
+  429  ssh fry@10.10.2.3
+  430  ssh fry@10.10.2.4
+  431  sudo shutdown now -r
+  432  cat /proc/uptime
+  433  cd pyapi/
+  434  python3 flask11.py 
+  435  bash mod-setup.sh 
+  436  cd
+  437  bash mod-setup.sh 
+  438  ssh fry@10.10.2.4
+  439  wget https://alta3.com/static/projects/ansible/max_teardown.sh
+  440  bash max_teardown.sh 
+  441  ls
+  442  bash mod-setup.sh 
+  443  cd pyapi/
+  444  python3 flask11.py 
+  445  ls
+  446  vim flask11.py 
+  447  python3 flask11.py 
+  448  vim flask11.py 
+  449  python3 flask11.py 
+  450  vim flask11.py 
+  451  python3 flask11.py 
+  452  uptime
+  453  cat /proc/uptime
+  454  ls
+  455  vim server01.py
+  456  vim templates/students.html
+  457  vim templates/requests.html
+  458  vim server01.py
+  459  vim templates/requests.html
+  460  vim template/list.html
+  461  vim templates/list.html
+  462  fg
+  463  vim templates/list.html
+  464  fg
+  465  cd templates/
+  466  ls
+  467  cat list.html 
+  468  vim home.html
+  469  cd ..
+  470  ls
+  471  lear
+  472  ls
+  473  clear
+  474  ls
+  475  python3 server01.py 
+  476  vim server01.py 
+  477  python3 server01.py 
+  478  ls
+  479  cd templates/
+  480  ls
+  481  mv students.html student.html 
+  482  cd ..
+  483  python3 server01.py 
+  484  cd templates/
+  485  ls
+  486  mv requests.html request.html 
+  487  cd ..
+  488  python3 server01.py 
+  489  cd templates/
+  490  ls
+  491  cat request.html 
+  492  mv request.html result.html
+  493  cd ..
+  494  python3 server01.py 
+  495  ls
+  496  sqlite3 database.db 
+  497  sudo apt install sqlite3
+  498  sqlite3 database.db 
+  499  vim server01.py 
+  500  python3 server01.py 
+  501  vim server01.py 
+  502  ls
+  503  vim try12.py
+  504  python3 try12.py 
+  505  ls
+  506  cat zach.txt 
+  507  python3 try12.py 
+  508  cat /tmp/zach.txt 
+  509  vim try12.py
+  510  python3
+  511  vim try12.py
+  512  python3 try12.py 
+  513  vim try12.py
+  514  vim try13.py
+  515  python3 try13.py
+  516  vim try13.py
+  517  vim try14
+  518  mv try14 try14.py
+  519  vim try14.py 
+  520  python3 try14.py
+  521  vim try14.py 
+  522  python3 try14.py
+  523  vim try14.py 
+  524  python3 try14.py
+  525  ls
+  526  rm tryexcept.log 
+  527  ls
+  528  python3 try14.py
+  529  ls
+  530  vim try14.py 
+  531  python3 try14.py 
+  532  vim try14.py 
+  533  python3 try14.py 
+  534  vim try14.py 
+  535  python3 try14.py 
+  536  vim try14.py 
+  537  python3 try14.py 
+  538  ls
+  539  vim dogClass01.py
+  540  python3 
+  541  vim dogClass01.py
+  542  python3 dogClass01.py 
+  543  vim dogClass01.py
+  544  python3
+  545  vim dogClass01.py
+  546  python3 dogClass01.py 
+  547  vim dogClass01.py
+  548  python3 dogClass01.py 
+  549  vim dogClass01.py
+  550  python3 dogClass01.py 
+  551  clear
+  552  ls
+  553  vim polymorph01.py
+  554  python3 polymorph01.py 
+  555  vim polymorph01.py
+  556  python3 polymorph01.py 
+  557  vim polymorph01.py
+  558  python3 -m pip install django
+  559  django-admin --version
+  560  ls
+  561  django-admin startproject fifthelement
+  562  ls
+  563  cd fifthelement/
+  564  ls
+  565  sudo apt install tree
+  566  tree fifthelement/
+  567  cd ..
+  568  tree fifthelement/
+  569  cd fifthelement/
+  570  ls
+  571  python3 manage.py runserver
+  572  python3 manage.py runserver 8080
+  573  q
+  574  python3 manage.py runserver 0:8080
+  575  python3 manage.py runserver 0:8081
+  576  python3 manage.py startapp polls
+  577  ls
+  578  cd ..
+  579  tree fifthelement/
+  580  git add *
+  581  git commit -m "End of day 4"
+  582  git push https://github.com/rzfeeser/pyapi20190923 master
+  583  history
+  584  clear
+  585  cd fifthelement/
+  586  ls
+  587  vim polls/views.py
+  588  vim polls/urls.py
+  589  vim fifthelement/urls.py 
+  590  python3 manage.py runserver
+  591  vim fifthelement/settings.py 
+  592  python3 manage.py migrate
+  593  ls
+  594  vim polls/models.py 
+  595  vim fifthelement/settings.py 
+  596  python3 manage.py makemigrations polls
+  597  python3 manage.py sqlmigrate polls 0001
+  598  python3 manage.py migrate
+  599  python3 manage.py shell
+  600  ls
+  601  vim polls/models.py 
+  602  python3 manage.py shell
+  603  vim polls/models.py 
+  604  python3 manage.py shell
+  605  python manage.py createsuperuser
+  606  python3 manage.py createsuperuser
+  607  python3 manage.py runserver
+  608  vim polls/admin.py
+  609  python3 manage.py runserver
+  610  vim polls/views.py 
+  611  vim polls/urls.py 
+  612  python3 manage.py runserver
+  613  vim polls/urls.py 
+  614  vim polls/views.py 
+  615  mkdir -p polls/templates/polls/
+  616  vim polls/templates/polls/index.html
+  617  python3 manage.py runserver
+  618  vim polls/views.py 
+  619  python3 manage.py runserver
+  620  vim polls/templates/polls/index.html 
+  621  python3 manage.py runserver
+  622  mv polls/views.py polls/views.py.old
+  623  vim polls/views.py
+  624  vim polls/templates/polls/detail.html
+  625  vim polls/urls.py 
+  626  vim polls/templates/polls/index.html
+  627  vim polls/views.py
+  628  vim polls/templates/polls/results.html
+  629  python3 manage.py runserver
+  630  clear
+  631  cd
+  632  cd pyapi/
+  633  wget https://alta3.com/static/files/movies.xls
+  634  vim pandabear.py
+  635  python3 -m pip install pandas xlrd
+  636  python3 -m pip install matplotlib
+  637  vim pandabear.py
+  638  python3 pandabear.py 
+  639  vim pandabear.py
+  640  python3 pandabear.py 
+  641  vim pandabear.py
+  642  python3 pandabear.py 
+  643  vim pandabear.py
+  644  python3 pandabear.py 
+  645  ls
+  646  vim pandabear.py
+  647  python3 pandabear.py 
+  648  vim pandabear.py
+  649  python3 pandabear.py 
+  650  python3 -m pip install openpyxl
+  651  python3 pandabear.py 
+  652  ls
+  653  rm -rf fifthelement/
+  654  ls
+  655  python3 -m pip install django
+  656  django-admin --version
+  657  djang-admin startproject fifthelement
+  658  django-admin startproject fifthelement
+  659  tree fifthelement/
+  660  vim fifthelement/fifthelement/settings.py 
+  661  vim fifthelement/fifthelement/urls.py
+  662  cd fifthelement/
+  663  python3 manage.py runserver
+  664  python3 manage.py startapp polls
+  665  vim polls/views.py 
+  666  tree 
+  667  vim polls/views.py 
+  668  vim polls/urls.py
+  669  vim fifthelement/urls.py 
+  670  python3 manage.py runserver
+  671  vim fifthelement/urls.py 
+  672  python3 manage.py runserver
+  673  vim fifthelement/urls.py 
+  674  vim polls/views.py 
+  675  python3 manage.py runserver
+  676  ls
+  677  vim fifthelement/settings.py 
+  678  python3 manage.py migrate
+  679  ls
+  680  vim polls/models.py 
+  681  vim fifthelement/settings.py 
+  682  cd polls/
+  683  ls
+  684  vim apps.py 
+  685  cd ..
+  686  vim fifthelement/settings.py 
+  687  python3 manage.py makemigrations polls
+  688  python3 manage.py sqlmigrate polls 0001
+  689  python3 manage.py migrate
+  690  python3 manage.py shell
+  691  vim polls/models.py 
+  692  python3 manage.py shell
+  693  ls
+  694  vim polls/models.py 
+  695  python3 manage.py shell
+  696  python3 manage.py createsuperuser
+  697  python3 manage.py runserver
+  698  vim polls/admin.py
+  699  python3 manage.py runserver
+  700  vim polls/views
+  701  ls
+  702  cd polls/
+  703  ls
+  704  vim views.py
+  705  vim polls/urls.py
+  706  vim urls.py
+  707  python3 manage.py runserver
+  708  cd ..
+  709  python3 manage.py runserver
+  710  cd polls/
+  711  ls
+  712  vim urls.py 
+  713  vim polls.py
+  714  vim views.py 
+  715  cd ..
+  716  python3 manage.py runserver
+  717  vim polls/views.py 
+  718  mkdir -p polls/templates/polls/
+  719  vim polls/templates/polls/index.html
+  720  python3
+  721  python3 manage.py runserver
+  722  vim polls/templates/polls/index.html
+  723  vim polls/views.py 
+  724  python3 manage.py runserver
+  725  vim polls/views.py 
+  726  python3 manage.py runserver
+  727  vim polls/templates/polls/index.html
+  728  vim polls/views.py 
+  729  python3 manage.py runserver
+  730  vim polls/templates/polls/detail.html
+  731  vim polls/urls.py 
+  732  vim polls/templates/polls/index.html 
+  733  vim polls/views.py 
+  734  vim polls/templates/polls/results.html
+  735  python3 manage.py runserver
+  736  history
+  737  cd ..
+  738  git add *
+  739  history > classhistory.txt
