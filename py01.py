@@ -3,6 +3,7 @@
 svrlist = ["pcscf", 'scscf', 'tcscf']
 
 print(svrlist[0])
+print(svrlist[2])
 
 svrlist2 = ["cscf", ["scscf", "icscf", "pcscf"], "tas", "hss"]
 
